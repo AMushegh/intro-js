@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: #d2d2d2;
+  padding: 16px 24px;
+}
+
+.border-1 {
+  border-radius: 4px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+}
+
+header nav ul li {
+  border: 2px solid #737373;
+  padding: 8px 16px;
+  background-color: #f8f8f8;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+
+header nav ul li.active {
+  background-color: #737373;
+}
+
+header nav ul li.active a {
+  color: #f8f8f8;
+}
+
+.hero {
+  background-image: url("./hero.webp");
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+  position: relative;
+}
+
+.hero-description {
+  color: white;
+  z-index: 200;
+}
+
+.hero-description h1 {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.backdrop {
+  position: absolute;
+  background: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  z-index: 100;
+}
+
+.description-section {
+  background-color: #f1f1f1;
+  padding: 64px 0;
+}
