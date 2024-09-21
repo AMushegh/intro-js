@@ -50,13 +50,14 @@ header nav ul li.active a {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  padding: 0 200px;
   position: relative;
+  width: 100%;
 }
 
 .hero-description {
   color: white;
   z-index: 200;
+  width: 100%;
 }
 
 .hero-description h1 {
