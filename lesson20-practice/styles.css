@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.employee-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.employee-card {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.engineer {
+  background-color: #f1f1f1;
+}
+
+.search-container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input {
+  font-size: 24px;
+}
+
+.search-btn {
+  border: none;
+  background-color: black;
+  border-radius: 8px;
+  color: #f1f1f1;
+  font-size: 18px;
+  padding: 8px 16px;
+}
